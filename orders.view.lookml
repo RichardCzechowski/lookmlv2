@@ -9,10 +9,16 @@
     primary_key: true
     type: int
     sql: ${TABLE}.id
+    
+  - dimension: nicole_test
+    label: 'TEST'
+    sql: ${status}
+    html: |
+       <a href="http://www.catsinsinks.com/" target="_new">click me</a>
 
   - dimension_group: created
     type: time
-    timeframes: [time, date, week, month, month_num, year, day_of_week_index, hour_of_day]
+    timeframes: [time, date, week, month, month_num, year, day_of_week_index, hour_of_day, minute10]
     sql: ${TABLE}.created_at
 
   - dimension: status

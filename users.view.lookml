@@ -10,7 +10,6 @@
 
   - dimension: age
     type: int
-    value_format: 00%
 
 # kittens for certain demos
 
