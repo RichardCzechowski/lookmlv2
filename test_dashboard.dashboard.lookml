@@ -7,18 +7,6 @@
 
   elements:
 
-  - name: add_a_unique_name_613
-    title: Untitled Table
-    type: table
-    model: thelook
-    explore: users
-    dimensions: [users.age]
-    measures: [users.count]
-    sorts: [users.count desc 0]
-    limit: 5
-    column_limit: ''
-    query_timezone: America/Los_Angeles
-
   - name: add_a_unique_name_44
     title: Untitled Visualization
     type: single_value
