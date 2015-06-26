@@ -35,7 +35,7 @@
       
   - &divider
     name: divider test
-    title: 'Avant Loans'
+    title: 'Avant Loans test'
     type: single_value
     explore: users
     width: 6
