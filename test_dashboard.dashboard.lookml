@@ -34,7 +34,7 @@
     font_size: medium
       
   - &divider
-    name: divider
+    name: divider test
     title: 'Avant Loans'
     type: single_value
     explore: users
