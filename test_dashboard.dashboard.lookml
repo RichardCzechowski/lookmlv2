@@ -7,7 +7,7 @@
 
   elements:
 
-  - name: add_a_unique_name_44
+  - name: nicole_test
     title: Untitled Visualization
     type: single_value
     model: thelook
