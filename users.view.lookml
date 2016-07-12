@@ -93,9 +93,9 @@
 
 # MEASURES #
 
-  - measure: count
-    type: count
-    drill_fields: detail
+#   - measure: count
+#     type: count
+#     drill_fields: detail
 
   - measure: count_percent_of_total
     label: Count (Percent of Total)
