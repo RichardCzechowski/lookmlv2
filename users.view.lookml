@@ -53,6 +53,17 @@
     type: tier
     sql: ${age}
     tiers: [0,10,20,30,40,50,60,70,80]
+    
+    
+  - dimension: age_sql_case
+    type: string
+    sql_case:
+      "Low": ${TABLE}.age < 20
+      "Normal": ${TABLE}.age < 30
+      "High": ${TABLE}.age < 50
+      "Urgent": ${TABLE}.age < 90
+      else: null
+
 
   - dimension: city
 
@@ -93,10 +104,10 @@
 
 # MEASURES #
 
-#   - measure: count
-#     type: count
-#     drill_fields: detail
-
+  - measure: count
+    type: count
+    drill_fields: detail
+    
   - measure: count_percent_of_total
     label: Count (Percent of Total)
     type: percent_of_total

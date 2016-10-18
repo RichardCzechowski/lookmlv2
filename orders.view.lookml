@@ -18,7 +18,7 @@
 
   - dimension_group: created
     type: time
-    timeframes: [time, date, week, month, month_num, year, day_of_week_index, hour_of_day, minute10]
+    timeframes: [time, quarter, date, week, month, month_num, year, day_of_week_index, hour_of_day, minute10]
     sql: ${TABLE}.created_at
 
   - dimension: status
